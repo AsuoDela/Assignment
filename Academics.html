@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonrise Christian High School</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #3b80f7;
+            overflow: hidden;
+            padding: 15px 0;
+            text-align: left;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url(IMAGES/1P.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #f4f4f4;
+            text-align: justify;
+            
+        }
+        .section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+    
+        .slideshow-container {
+            position: relative;
+            width: 50%;
+            max-width: 600px;
+        }
+        .slides {
+            display: none;
+            width: 100%;
+            height: auto;
+        }
+        .fade {
+            animation: fadeEffect 1.5s;
+        }
+        @keyframes fadeEffect {
+            from {opacity: 0.4;} 
+            to {opacity: 1;}
+        }
+        .text-container {
+            width: 45%;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        video {
+            width: 45%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+        /* Table Styling */
+        .table-container {
+            margin-top: 40px;
+            padding: 20px;
+        }
+        table {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #81ddf7;
+        }
+        th {
+            background: #0a2a66;
+            color: rgb(116, 222, 245);
+            font-size: 18px;
+        }
+        tr:nth-child(even) {
+            background: #73d1fa;
+        }
+        .highlight {
+            background: #444;
+            color: rgb(218, 227, 230);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="Home.html">Home</a>&nbsp;&nbsp;|
+        &nbsp;&nbsp;<a href="About.html">About</a>&nbsp;&nbsp;|
+        &nbsp;&nbsp; <a href="gallery.html">Gallery</a>&nbsp;&nbsp;|
+        &nbsp;&nbsp; <a href="contact.html">Contact </a>&nbsp;&nbsp;|
+        &nbsp;&nbsp; <a href="Academics.html">Academics </a>
+    </div>
+
+
+<!-- First Section: Image Left, Text Right -->
+<div class="section">
+    <div class="slideshow-container">
+        <img class="slides fade" src="IMAGES/R.webp" alt="CHI">
+        <img class="slides fade" src="IMAGES/u.webp" alt="CHI">
+        <img class="slides fade" src="IMAGES/5F.jpg" alt="CHI">
+        <img class="slides fade" src="IMAGES/5L.jpg" alt="CHI">
+        <img class="slides fade" src="IMAGES/5J.jpg" alt="CHI">
+        <img class="slides fade" src="IMAGES/5C.jpg" alt="CHI">
+        <img class="slides fade" src="IMAGES/5P.jpg" alt="CHI">
+    </div>
+    <div class="text-container">
+        <br><br><br><br> <br><br>
+        <h1>WELCOME TO CHRISEN HIGH INTERNATIONAL</h1>
+        <p>CHRISEN HIGH INTERNATIONAL is a senior high school established on 3rd October, 2005 by Joseph and Jennifer Dzamesi in partnership with Ray and Cam Boatright.</p>
+        <h1>CHRISEN HIGH INTERNATIONAL: A Beacon of Artistic Excellence in Africa</h1>
+        
+        <p>
+           Chrisen High International has firmly established itself as a powerhouse of artistic talent, 
+            gaining national and continental recognition for its outstanding contributions to the arts. 
+            Located in Tema, Ghana, the school has consistently nurtured young creatives, producing award-winning 
+            artists, musicians, and performers who have made a lasting impact in Africa’s art scene.
+        </p>
+
+        <p>
+            In 2023, the school’s Visual Arts Department was honored at the African Art Excellence Awards in Nairobi 
+            for its innovative approach to contemporary African art. The students' breathtaking murals and sculptures, 
+            which celebrate Ghanaian heritage and culture, have been featured in major exhibitions across Africa. 
+            Additionally,Chrisen’s drama and music ensemble have won multiple national and regional competitions, 
+            including the prestigious Tema Arts Festival, where they captivated audiences with their storytelling and musical prowess.
+        </p>
+
+        <p>
+            Beyond competitions,Chrisen High International actively promotes art education by collaborating with 
+            renowned African artists and institutions. Through these efforts, the school has become a beacon of artistic 
+            excellence, inspiring the next generation of African creatives while reinforcing Tema’s reputation as a cultural hub.
+        </p>
+
+    </div>
+</div>
+
+
+<!-- Video Section -->
+<div class="video-container">
+    <video controls>
+        <source src="IMAGES/5G.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video controls>
+        <source src="IMAGES/5B.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<!-- Courses Table -->
+<div class="table-container">
+    <h1>COURSES OFFERED & STRUCTURE</h1>
+    <h2>Here are some programmes offered in Chrisen </h2>
+    <table>
+        <tr>
+            <th>Courses Offered</th>
+            <th>Structure of Courses</th>
+        </tr>
+        <tr>
+            <td>General Science A – Engineering Path</td>
+            <td>Physics | Additional Mathematics | Chemistry or Geography | Robotics or Computing</td>
+        </tr>
+        <tr class="highlight">
+            <td>General Science B – Medical Path</td>
+            <td>Chemistry | Additional Mathematics | Physics or Business Studies | Biology or PEH (elective)</td>
+        </tr>
+        <tr>
+            <td>General Arts 1 – Languages</td>
+            <td>French | Home Economics, Bible or Religious Studies | PEH, Literature-In-English or History | Business Studies or Government</td>
+        </tr>
+        <tr class="highlight">
+            <td>General Arts 2</td>
+            <td>Economics | Geography or Computing | Government or Home Economics | Additional Mathematics, Religious Studies or Business Studies</td>
+        </tr>
+        <tr>
+            <td>General Arts 3</td>
+            <td>Economics | Government | Religious Studies | History or Literature-In-English</td>
+        </tr>
+        <tr class="highlight">
+            <td>Business – Year One</td>
+            <td>Business Studies | Computing | Home Economics | Biology or PEH (elective)</td>
+        </tr>
+        <tr>
+            <td>Business – Year Two</td>
+            <td>Business Management | Accounting | Home Economics | Economics, Additional Mathematics or PEH (elective)</td>
+        </tr>
+        <tr class="highlight">
+            <td>Home Economics</td>
+            <td>Home Economics | Biology, PEH (elective) or Agriculture | French or Economics | Business Studies | Arts and Design Foundation</td>
+        </tr>
+    </table>
+</div><footer> <P style="text-align:left;"><span style="color:white;">&copy; 2025. All rights reserved</span></P></footer>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slides");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1; }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+</script>
+
+</body>
+</html>

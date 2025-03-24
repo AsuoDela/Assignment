@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #3b80f7;
+            overflow: hidden;
+            padding: 15px 0;
+            text-align: left;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url(IMAGES/1P.jpg) no-repeat center center fixed;
+            background-size: cover;
+            color: #f4f4f4;
+            }
+    </style>
+</head>
+<body>
+ <!-- Navigation Bar -->
+ <div class="navbar">
+    <a href="Home.html">Home</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp;<a href="About.html">About</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp; <a href="gallery.html">Gallery</a>&nbsp;&nbsp;|
+    &nbsp;&nbsp; <a href="contact.html">Contact </a>&nbsp;&nbsp;|
+    &nbsp;&nbsp; <a href="Academics.html">Academics </a>
+ </div><br><br><br> <br><br><br> <br><br><br> 
+    <div class="gallery">
+        <img src="IMAGES/5D.jpg" alt="Image 1"><hr>
+        <img src="IMAGES/2D.jpg" alt="Image 2"><hr>
+        <img src="IMAGES/2E.jpg" alt="Image 3"><hr>
+        <img src="IMAGES/5H.jpg" alt="Image 4"><hr>
+    </div><hr><br><br>
+
+<div class="gallery">
+    <img src="IMAGES/5I.jpg" alt="Image 1"><hr>
+    <img src="IMAGES/1C.jpg" alt="Image 2"><hr>
+    <img src="IMAGES/5K.jpg" alt="Image 3"><hr>
+    <img src="IMAGES/5N.jpg" alt="Image 4"><hr>
+</div><hr><br><br>
+<div class="gallery">
+    <img src="IMAGES/V1.jpeg" alt="Image 1"><hr>
+    <img src="IMAGES/V2.jpeg" alt="Image 3"><hr>
+    <img src="IMAGES/V3.jpeg" alt="Image 4"><hr>
+    <img src="IMAGES/2B.jpg" alt="Image 5"><hr>
+</div><hr><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<video controls>
+    <source src="V8.mp4" type="video/mp4"><hr>
+</video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<video controls>
+    <source src="V7.mp4" type="video/mp4"><hr>
+</video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<video controls>
+    <source src="V6.mp4" type="video/mp4"><hr>
+</video><hr>
+<P style="text-align:left;"><span style="color:white;">&copy; 2025. All rights reserved</span></P></footer>
+
+
+</body>
+</html>
